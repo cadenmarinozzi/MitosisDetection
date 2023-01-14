@@ -1,0 +1,30 @@
+{
+  "generate": {
+    "nImages": 1000,
+    "imgResolution": [100, 100],
+    "outputPath": "data",
+    "labelsPath": "data/labels.txt",
+    "imageFormat": "png",
+    "blurRadius": 2,
+    "percentInMitois": 0.5,
+    "nonUniformnessMinMax": [0, 20],
+    "shape": "random",
+    "minChromosomeLength": 3,
+    "maxChromosomeLengthDivisor": 5,
+    "minChromosomeWidth": 2,
+    "maxChromosomeWidthDivisor": 20,
+    "minNPoints": 0,
+    "maxNPointsDivisor": 20,
+    "minNChromosomes": 0,
+    "maxNChromosomesDivisor": 2,
+    "verbose": true
+  },
+  "train": {
+    "inputPath": "data",
+    "labelsPath": "data/labels.txt",
+    "imageFormat": "png",
+    "imgResolution": [100, 100],
+    "nEpochs": 20,
+    "testPath": "data"
+  }
+}
