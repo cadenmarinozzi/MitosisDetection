@@ -8,7 +8,7 @@ A CNN and generation algorithm to calculate the mitotic index of a set of cell d
 
 ```bash
 # Download the repository to your local machine:
-git clone https://github.com/nekumelon/MitosisDetection.git
+git clone https://github.com/cadenmarinozzi/MitosisDetection.git
 
 # Change directory to the repository:
 cd MitosisDetection
